@@ -21,7 +21,6 @@ erosion = cv2.erode(dilate, kernel, iterations = 1)
 
 edges = cv2.Canny(erosion, 100,200)
 
-"""hello"""
 
 cv2.imshow("Y&W Detect",masked_image)
 cv2.imshow("Dilated and Eroded",erosion)
